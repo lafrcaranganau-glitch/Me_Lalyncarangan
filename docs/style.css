@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f2ff;
+    margin: 0;
+    padding: 0;
+    color: #2a3344;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #bcd4ff;
+}
+
+.subtitle {
+    color: #415678;
+    font-size: 16px;
+}
+
+.profile-section {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #c9ddff;
+    margin-bottom: 15px;
+}
+
+.about {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #dce8ff;
+}
+
+.btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #7aa9ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #5e8ee0;
+}
+
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #bcd4ff;
+    margin-top: 40px;
+    color: #2a3344;
+}
